@@ -1,0 +1,23 @@
+.ui-panelmenu .ui-panelmenu-header:not(.ui-state-active):hover {
+  border-color: #79b7e7;
+  color: #1d5987; 
+  }
+.ui-panelmenu .ui-panelmenu-header:not(.ui-state-active):hover a {
+    color: #1d5987; }
+.ui-panelmenu .ui-panelmenu-header:not(.ui-state-active):hover a {
+    color: #1d5987; }
+
+.ui-panelmenu .ui-panelmenu-header a  {
+  text-decoration: none;  }  
+
+.ui-panelmenu .ui-panelmenu-header.ui-state-active a  {
+  color: #00ff00;  }  
+.ui-panelmenu .ui-panelmenu-content .ui-menuitem-link {
+  color: #222222; }
+  .ui-panelmenu .ui-panelmenu-content .ui-menuitem-link:hover {
+    border-color: #79b7e7;
+    background: #d0e5f5;
+    color: #1d5987;
+    border-color: transparent; }
+    .ui-panelmenu .ui-panelmenu-content .ui-menuitem-link:hover a {
+      color: #ff0000; }

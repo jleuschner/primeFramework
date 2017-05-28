@@ -1,5 +1,52 @@
-<h1>
-  {{title}}
-</h1>
+<div class="ui-g">
 
-<server-detail></server-detail>
+  <div class="side-panel ui-ng-nopad ui-g-12 ui-md-3 ui-lg-2">
+    Menu
+    <app-menu></app-menu>
+  </div>
+
+  <div class="ui-g-12 ui-md-9 ui-lg-10">
+<div class="ui-g">
+    <div class="ui-g-12">
+      {{title}}
+      <i class="fa fa-camera"></i>
+      <nav>
+        <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+        <a routerLink="/server" routerLinkActive="active">Server</a>
+      </nav>
+    </div>
+
+    <div class="ui-g">
+      <div class="ui-g-12">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+<!--
+  <div class="ui-g-12 ui-md-10 ui-g-nopad">
+    <div class="ui-g-12">
+      {{title}}
+      <i class="fa fa-camera"></i>
+      <nav>
+        <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+        <a routerLink="/server" routerLinkActive="active">Server</a>
+      </nav>
+    </div>
+
+    <div class="ui-g">
+      <div class="ui-g-12">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="ui-g-12">
+  Footer
+</div>
+-->
+
+</div>

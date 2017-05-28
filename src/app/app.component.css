@@ -1,0 +1,12 @@
+nav a {
+    color: #330000;
+}
+nav a.active {
+    color:#ff0000;
+}
+
+.side-panel {
+    height:100%;
+    
+    background-color: #aaaaaa;
+}
